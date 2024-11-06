@@ -12,18 +12,45 @@ header{
 /* naver */
 header nav{
     width:100%;
-    height: 150px;
-    background-color: rgb(244, 189, 224);
+    height: 100px;
+    background-color: #FFACEE;
     display: flex;
     flex-flow: row;
     align-items: center;
 }
-    header nav#nav-principal div#logotipo{
+header nav#nav-principal div#logotipo{
         width: 100px;
-        height: 120px;
+        height: 100px;
         margin-left: 5rem;
     }
-    header nav#nav-principal div#logotipo img{
-        max-width: 100%;
+header nav#nav-principal div#logotipo img{
+        max-width: 150%;
         max-height: 100%;
     }
+
+    /* ____MENU_____ */
+
+header nav#nav-principal ul#icone-menu{
+    /* display: none; */
+
+}
+header nav#nav-principal ul#icone-menu li{
+    list-style: none;
+}
+header nav#nav-principal ul#icone-menu li ion-icon{
+    margin-right: 2rem;
+    font-size: 50px;
+    color: #fff;
+}
+header nav#nav-principal ul#menu-principal{
+    margin-right: 3rem; 
+    display:flex;
+    flex-flow: row;
+    color:#fff;
+
+}
+header nav#nav-principal ul#menu-principal li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
