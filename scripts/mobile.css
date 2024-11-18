@@ -1,11 +1,38 @@
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* header */
-header{
-    width: 100%;
-    height: 95vh;
-    background-color: #FDBCD4;
+/* NAVER */
+@media screen and (max-width:630px) {
+      /*   menuno hamburguer */
+    header nav#nav-principal{
+        justify-content: space-between;
+        }
+    header nav#nav-principal ul#icone-menu{ 
+        display:flex
+    } 
+    header nav#nav-principal ul#icone-menu{ 
+        display:flex
+    } 
+    header nav#nav-principal ul#icone-menu li#menux{
+        display: none;
+    }
+                /*  menu */
+    header nav#nav-principal ul#menu-principal{
+        flex-direction: column;
+        width: 80%;
+        height:85vh; 
+        background-color: linear-gradient(rgb(4, 71, 217) 0%, rgba (54,176,224)45%, rbga(60,179,113,.9)100%);
+        padding-top: .5rem;
+        position:absolute;
+        top: 9.3rem;
+        right: 0;
+        z-index: 999;
+
+        display: none;
+    }
+    header nav#nav-principal ul#menu-principal li{
+        margin: .5rem;
+        margin-left: 1rem;
+     }
+    header nav#nav-principal ul#menu-principal li a{
+            font-size: 120%;
+
+        }
 }
